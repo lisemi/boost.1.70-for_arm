@@ -1,0 +1,77 @@
+# .gitignore
+
+
+# Ignore object files.
+Build
+bin.v2
+stage
+
+# Ignore coverage files.
+b2
+bjam
+
+# Ignore locally installed node_modules
+
+# Ignore tmp directory.
+
+
+# Ignore debug logs
+bootstrap.log
+
+
+# Xcode user-specific project settings
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+
+# Build Log
+
+# vscode
+.vscode/
+
+# Ignore vim swap files.
+*.swp
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
